@@ -1,0 +1,114 @@
+{
+  "best_metric": 0.4759533405303955,
+  "best_model_checkpoint": "C:/Users/vikramp/OneDrive - School Health Corporation/Desktop/Assignment Files CISC 691/A03\\checkpoint-252",
+  "epoch": 6.0,
+  "eval_steps": 500,
+  "global_step": 378,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.5,
+      "eval_f1": 0.3333333333333333,
+      "eval_loss": 0.6913493871688843,
+      "eval_runtime": 144.3949,
+      "eval_samples_per_second": 3.463,
+      "eval_steps_per_second": 0.111,
+      "step": 63
+    },
+    {
+      "epoch": 1.5873015873015874,
+      "grad_norm": 0.6486476063728333,
+      "learning_rate": 3.677248677248677e-05,
+      "loss": 0.6956,
+      "step": 100
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.538,
+      "eval_f1": 0.4153645240156105,
+      "eval_loss": 0.6769294142723083,
+      "eval_runtime": 142.9995,
+      "eval_samples_per_second": 3.497,
+      "eval_steps_per_second": 0.112,
+      "step": 126
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.762,
+      "eval_f1": 0.7605431444910838,
+      "eval_loss": 0.5372821688652039,
+      "eval_runtime": 280.2415,
+      "eval_samples_per_second": 1.784,
+      "eval_steps_per_second": 0.057,
+      "step": 189
+    },
+    {
+      "epoch": 3.1746031746031744,
+      "grad_norm": 2.6648333072662354,
+      "learning_rate": 2.3544973544973546e-05,
+      "loss": 0.3756,
+      "step": 200
+    },
+    {
+      "epoch": 4.0,
+      "eval_accuracy": 0.794,
+      "eval_f1": 0.7936359738578853,
+      "eval_loss": 0.4759533405303955,
+      "eval_runtime": 152.7363,
+      "eval_samples_per_second": 3.274,
+      "eval_steps_per_second": 0.105,
+      "step": 252
+    },
+    {
+      "epoch": 4.761904761904762,
+      "grad_norm": 1.9277321100234985,
+      "learning_rate": 1.0317460317460318e-05,
+      "loss": 0.2769,
+      "step": 300
+    },
+    {
+      "epoch": 5.0,
+      "eval_accuracy": 0.812,
+      "eval_f1": 0.8119518596760771,
+      "eval_loss": 0.4823992848396301,
+      "eval_runtime": 153.3118,
+      "eval_samples_per_second": 3.261,
+      "eval_steps_per_second": 0.104,
+      "step": 315
+    },
+    {
+      "epoch": 6.0,
+      "eval_accuracy": 0.812,
+      "eval_f1": 0.8119879672299026,
+      "eval_loss": 0.4827778935432434,
+      "eval_runtime": 187.0257,
+      "eval_samples_per_second": 2.673,
+      "eval_steps_per_second": 0.086,
+      "step": 378
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 378,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 6,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 332377694208000.0,
+  "train_batch_size": 32,
+  "trial_name": null,
+  "trial_params": null
+}
